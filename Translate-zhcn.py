@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+# Leatrix Plus 6.2.27 zhCN
 # Leatrix Plus translation script
 from __future__ import unicode_literals
 
