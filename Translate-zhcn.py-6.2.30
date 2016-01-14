@@ -21,8 +21,8 @@ def ReplaceFunc(findReplacePairs):
 	return;
 
 # Deckare old and new files
-filePath = "D:\\game\\Leatrix_Plus\\Leatrix_Plus\\Leatrix_Plus.lua"
-newPath = "D:\\game\\Leatrix_Plus\\Leatrix_Plus\\Leatrix_Plus_zhCN.lua"
+filePath = "Leatrix_Plus.lua"
+newPath = "Leatrix_Plus_zhCN.lua"
 
 # zhCN
 findReplacePairs = [
