@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Leatrix Plus 6.2.27 zhCN
+# Leatrix Plus 6.2.30 zhCN
 # Leatrix Plus translation script
 from __future__ import unicode_literals
 
@@ -82,10 +82,10 @@ findReplacePairs = [
     ('"Chain style"', '"头像风格"'), 
     ('"Choose a chain style for the player frame from the dropdown menu."', '"从下拉菜单中选择玩家头像风格。"'), 
 	#-------------------
-    ('"Class Colored Frames"', '"职业着色框架"'), 
-    ('"Show player frame in class color"', '"玩家框架职业着色"'), 
+    ('"Class Colored Frames"', '"职业颜色框架"'), 
+    ('"Show player frame in class color"', '"玩家框架职业颜色"'), 
     ('"If checked, the player frame background will be shown in class color."', '"勾选：玩家名称框架背景将显示为职业颜色。"'), 
-    ('"Show target frame and focus frame in class color"', '"目标和焦点框架职业着色"'), 
+    ('"Show target frame and focus frame in class color"', '"目标和焦点框架职业颜色"'), 
     ('"If checked, the target frame background and focus frame background will be shown in class color."', '"勾选：目标名称框架背景与焦点名称框架背景将显示为职业颜色。"'), 
 	#-------------------
     ('"Spell Icons"', '"法术图标"'), 
@@ -210,7 +210,7 @@ findReplacePairs = [
     ('"If checked, totem nameplates will be shown during combat."', '"勾选：在战斗中显示敌方图腾的姓名版。"'), 
     ('"Minor enemies"', '"小怪"'), 
     ('"If checked, minor enemy nameplates will be shown during combat."', '"勾选：在战斗中显示敌方小怪的姓名版。"'), 
-    ('"Nameplate coloring"', '"姓名版着色"'), 
+    ('"Nameplate coloring"', '"姓名版颜色"'), 
     ('"Show nameplates in class color"', '"职业颜色"'), 
     ('"If checked, enemy nameplates will be shown in class color."', '"勾选：敌方姓名版使用职业的颜色。"'), 
     ('"Select the settings that you want to use.\\n\\nThis panel will close automatically if you enter combat."', '"选择您想要使用的设置。\\n\\n如果您进入战斗此面板会自动关闭。"'), 
@@ -241,11 +241,11 @@ findReplacePairs = [
     ('"Your selected roles have been saved to your "', '"您所选择的角色类型已保存到您的 "'), 
     ('"Click to save your selected group roles to your current talent spec.\\n\\nYour saved roles will be selected automatically when you switch specs."', '"点击保存选定的团队角色类型到您当前的天赋。\\n\\n当您切换天赋时将自动选择保存的角色类型。"'), 
 	#-------------------
-    ('"Class Colors"', '"职业着色"'), 
-    ('"Use class colors in local channels"', '"本地频道使用职业着色"'), 
-    ('"If checked, class colors will be used in local channels (such as say, party, raid, etc)."', '"勾选：在本地频道的名称将依职业着色 (如：说、队伍、团队、等)。"'), 
-    ('"Use class colors in global channels"', '"全区频道使用职业着色"'), 
-    ('"If checked, class colors will be used in global channels (such as general, trade, etc)."', '"勾选：在全区频道的名称将依职业着色 (如：综合、交易、等)。"'), 
+    ('"Class Colors"', '"职业颜色"'), 
+    ('"Use class colors in local channels"', '"本地频道使用职业颜色"'), 
+    ('"If checked, class colors will be used in local channels (such as say, party, raid, etc)."', '"勾选：在本地频道的名称将依职业颜色 (如：说、队伍、团队、等)。"'), 
+    ('"Use class colors in global channels"', '"全区频道使用职业颜色"'), 
+    ('"If checked, class colors will be used in global channels (such as general, trade, etc)."', '"勾选：在全区频道的名称将依职业颜色 (如：综合、交易、等)。"'), 
     ('"Max"', '"最大"'), 
     ('"Buyout Only"', '"只限直购"'), 
     ('"Gold Only"', '"只限金币"'), 
@@ -323,9 +323,11 @@ findReplacePairs = [
     ("Click |TInterface\\\\WorldMap\\\\Gear_64.png:20:20:0:0:32:32:0:16:0:16|t buttons to access additional configuration options.", "点击 |TInterface\\\\WorldMap\\\\Gear_64.png:20:20:0:0:32:32:0:16:0:16|t 按钮进行进阶设置选项。"), 
 	#-------------------
     ('"Character"', '"角色"'), 
-    ('"Automate quests"', '"自动任务"'), 
-    ('"If checked, you will be able to select quest and gossip automation.\\n\\nYou can select the level of automation by clicking the configuration button to the right."', '"勾选：任务和互动自动化。\\n\\n您可以通过点击右侧的设置按钮选择自动化的等级。"'), 
-    ('"Release in PvP zones"', '"PvP区域自动释放"'), 
+    ('"Automate quests*"', '"自动任务"'), 
+    ('"If checked, quests will be selected, accepted and turned-in automatically.\\n\\nYou can hold the shift key down when you talk to a quest giver to over-ride this setting.\\n\\n* Requires UI reload."', '"勾选：任务选择会自动接受与提交。\\n\\n您可以在任务给予者交谈时按住Shift以暂停此设置。\\n\\n* 需要重载界面。"'), 
+    ('"Automate gossip*"', '"自动互动"'), 
+    ('"If checked, gossip will be selected automatically if only one gossip option is being offered.\\n\\nYou can hold the shift key down when you open a gossip window to over-ride this setting.\\n\\n* Requires UI reload."', '"勾选：互动只有一项时会自动选择。\\n\\n您可以在开启互动窗口时按住Shift以暂停此设置。\\n\\n* 需要重载界面。"'), 
+    ('"Release in PvP zones"', '"战场释放"'), 
     ('"If checked, you will release automatically after you die in a designated PvP zone.\\n\\nYou can select zones by clicking the configuration button to the right.\\n\\nYou will not release automatically if you have the ability to self-resurrect (soulstone, reincarnation, etc)."', '"勾选：在选定的PvP区域死亡后会自动释放尸体。\\n\\n您可以点击右侧的设置按钮选择区域。\\n\\n您将不会自动释放如果您有技能来自复活(灵魂石、复生、等)。"'), 
     ('"Accept resurrection"', '"接受复活"'), 
     ('"If checked, summon requests will be accepted automatically unless you are in combat."', '"勾选：自动接受召唤请求，除非您在战斗中。"'), 
@@ -334,7 +336,7 @@ findReplacePairs = [
     ('"Vendors"', '"商人"'), 
     ('"Sell junk automatically*"', '"自动售出垃圾*"'), 
     ('"If checked, all grey items in your bags will be sold automatically when you visit a merchant.\\n\\nYou can hold the shift key down when you talk to a merchant to over-ride this setting.\\n\\n* Requires UI reload.  After the reload, a configuration button will be available to the right."', '"勾选：当您访问商店时所有背包内的灰色物品会自动售出。\\n\\n您可以在与商店NPC对话时按下shift键暂停此设定。\\n\\n* 需要重载界面。 重载之后，右侧的配置按钮才能使用。"'), 
-    ('"Repair automatically*"', '"自动修理*"'), 
+    ('"Repair automatically*"', '"自动修理装备*"'), 
     ('"If checked, your gear will be repaired automatically when you visit a suitable merchant.\\n\\nYou can hold the shift key down when you talk to a merchant to over-ride this setting.\\n\\n* Requires UI reload.  After the reload, a configuration button will be available to the right."', '"勾选：当您访问可修理的商店时所有的装备都会被自动修理。\\n\\n您可以在与商店NPC对话时按下shift键暂停此设定。\\n\\n* 需要重载界面。 重载之后，右侧的配置按钮才能使用。"'), 
     ('"Groups"', '"团队"'), 
     ('"Party from friends"', '"接受好友队伍邀请"'), 
@@ -384,11 +386,11 @@ findReplacePairs = [
     ('"If checked, chat text will not fade out after a time period.\\n\\n* Requires UI reload."', '"勾选：聊天的文字不会在一段时间后淡出。\\n\\n* 需要重载界面。"'), 
     ('"Increase chat history*"', '"增加聊天历史记录*"'), 
     ('"If checked, your chat history will increase to 4096 lines.  If unchecked, the default will be used (128 lines).\\n\\nEnabling this option may prevent some chat text from showing during login.\\n\\n* Requires UI reload."', '"勾选：您的聊天记录将被增加到4096行。如果未勾选，将使用预设(128行).\\n\\n启用此选项可能会在登入过程中阻止一些聊天的文字显示。\\n\\n* 需要重载界面。"'), 
-    ('"Chat Colors"', '"聊天着色"'), 
-    ('"Universal group color*"', '"通用团队着色*"'), 
+    ('"Chat Colors"', '"聊天颜色"'), 
+    ('"Universal group color*"', '"通用团队颜色*"'), 
     ('"If checked, raid chat and instance chat will both be colored blue (to match the default party chat color).\\n\\n* Requires UI reload."', '"勾选：团队聊天与副本频道将同时设定为队伍频道的颜色(预设为蓝色)。\\n\\n* 需要重载界面。"'), 
-    ('"Manage class colors*"', '"管理职业着色*"'), 
-    ('"If checked, you will be able to configure class-coloring in the chat frame.\\n\\n* Requires UI reload.  After the reload, a configuration button will be available to the right."', '"勾选：您将可以启用或禁用频道职业着色。这将取代暴雪的选项面板使它更简单与帐号通用。\\n\\n启用此选项会防止您改变暴雪聊天选项中的职业着色选项。\\n\\n* 需要重载界面。 重载之后，右侧的配置按钮才能使用。"'), 
+    ('"Use class colors in chat*"', '"聊天职业颜色*"'), 
+    ('"If checked, class colors will be used in the chat frame.\\n\\n* Requires UI reload."', '"勾选：聊天框架会使用职业颜色。\\n\\n* 需要重载界面。"'), 
 	#-------------------
     ('"Zone Text"', '"区域文本"'), 
     ('"Hide zone text*"', '"隐藏区域文本*"'), 
@@ -437,7 +439,7 @@ findReplacePairs = [
     ('"Features"', '"功能"'), 
     ('"Manage frames*"', '"管理框架*"'), 
     ('"If checked, you will be able to change the position and scale of the player frame, target frame, world state, ghost frame and timer bar.  Your layout will be saved account-wide.\\n\\n* Requires UI reload.  After the reload, a configuration button will be available to the right."', '"勾选：您将可以改变玩家框架、目标框架、世界状态、灵魂框架、计时条的位置与大小。 您的布局将会储存为帐号通用。\\n\\n* 需要重载界面。 重载之后，右侧的配置按钮才能使用。"'), 
-    ('"Class colored frames*"', '"框架职业着色*"'), 
+    ('"Class colored frames*"', '"框架职业颜色*"'), 
     ('"If checked, you will be able to show class coloring in the player frame, target frame and focus frame backgrounds.\\n\\n* Requires UI reload.  After the reload, a configuration button will be available to the right."', '"勾选：您将能够在玩家框架、目标框架和焦点框架的背景显示职业颜色。\\n\\n* 需要重载界面。 重载之后，右侧的配置按钮才能使用。"'), 
     ('"Show player chain*"', '"显示精英头像*"'), 
     ('"If checked, you will be able to show a rare, elite or rare elite chain around the player frame.\\n\\n* Requires UI reload.  After the reload, a configuration button will be available to the right."', '"勾选：您的玩家头像可以显示为稀有、精英或稀有精英的头像。\\n\\n* 需要重载界面。 重载之后，右侧的配置按钮才能使用。"'), 
