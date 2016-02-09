@@ -29,7 +29,7 @@ findReplacePairs = [
 
 	#You know, some of the text will replace the code together.
     ('"Frames"		, "LeaPlusNav6", "Frames"', '"框架"		, "LeaPlusNav6", "框架"'), 
-    ('"RARE", "ELITE", "RARE ELITE"', '"稀有", "精英", "稀有精英"'), 
+    ('"RARE", "ELITE", "RARE ELITE"', '"精英", "稀有", "稀有精英"'), 
     ('SpellPanel, "Stack",', 'SpellPanel, "堆叠",'), 
     ('SpellPanel, "Pet",', 'SpellPanel, "宠物",'), 
     ('"Scale",', '"大小",'), 
